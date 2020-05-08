@@ -15,6 +15,7 @@ public class GlobalCorsConfig {
 
     /**
      * 允许跨域调用的过滤器
+     * 简单跨域和复杂跨域的区别 https://www.dazhuanlan.com/2020/03/04/5e5ee9a87ecae/
      */
     @Bean
     public CorsFilter corsFilter() {
